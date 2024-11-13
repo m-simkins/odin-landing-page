@@ -147,7 +147,7 @@ footer {
     padding: 20px;
 }
 
-footer a {
+a {
     text-decoration: none;
     color: var(--grey)
 }
