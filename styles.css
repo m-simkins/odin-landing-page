@@ -113,33 +113,21 @@ figcaption {
     margin: 16px 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .quote {
     background-color: var(--grey);
     color: var(--dark);
+    padding: 96px 10vw;
+}
+
+blockquote {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
+}
+
+.attr {
+    text-align: right;
+    font-weight: 900;
 }
 
 footer {
