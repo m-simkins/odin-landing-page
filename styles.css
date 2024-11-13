@@ -17,10 +17,6 @@ body {
     justify-content: space-between;
 }
 
-header, section, footer {
-    padding: 0 10vw;
-}
-
 header {
     display: flex;
     flex-direction: row;
@@ -45,6 +41,10 @@ nav ul {
 nav ul, .subtext, footer {
     font-size: 18px;
     color: var(--grey);
+}
+
+header, main > * {
+    padding: 0 10vw;
 }
 
 .hero {
