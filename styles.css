@@ -56,7 +56,8 @@ nav ul, .subtext, footer {
 }
 
 .hero-text {
-    flex: 1;
+    flex: 1 1 0;
+    width: 0;
 }
 
 .hero h2 {
@@ -77,12 +78,9 @@ button {
     font-weight: 900;
 }
 
-.hero-ph {
-    width: 100%;
-    height: fit-content;
-    background-color: var(--grey);
-    text-align: center;
-    flex: 1;
+.hero-img {
+    flex: 1 1 0;
+    width: 0;
 }
 
 .info h2 {
@@ -101,11 +99,11 @@ button {
     margin-bottom: 72px;
 }
 
-.fig-ph {
+.fig {
     width: 100%;
-    height: fit-content;
-    border: 2px solid var(--accent);
+    aspect-ratio: 1;
     border-radius: 8px;
+    object-fit: cover;
 }
 
 figcaption {
